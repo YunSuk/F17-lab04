@@ -65,7 +65,7 @@ public class AllMyDrawings
     }
     
     
-    /** Draw a picture with a few houses and coffee cups
+    /** Draw a picture of windows and gridded windows, some are rotated. 
      */
     public static void drawPicture2(Graphics2D g2) {
 	
@@ -127,7 +127,7 @@ public class AllMyDrawings
 	g2.drawString("A bunch of windows and gridded windows by Fernando Mendoza", 20,20);
     }
     
-    /** Draw a different picture with a few windows and gridded windows
+    /** Draw a bunch of gridded windows stcked together to make a huge gridded window
      */
     
     public static void drawPicture3(Graphics2D g2) {
