@@ -70,7 +70,6 @@ public class AllMyDrawings
 	
 	g2.setColor(Color.RED);     g2.draw(large);
 	g2.setColor(Color.GREEN);   g2.draw(smallCC);
-	g2.setColor(Color.MAGENTA); g2.draw(shortFat);
 	
 	axe h1 = new axe(100,250,50,75);
 	g2.setColor(Color.CYAN); g2.draw(h1);
