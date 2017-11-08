@@ -61,7 +61,7 @@ public class AllMyDrawings
 	
 	g2.setStroke(orig);
 	g2.setColor(Color.BLACK); 
-	g2.drawString("A few houses by Fernando Mendoza", 20,20);
+	g2.drawString("A few windows by Fernando Mendoza", 20,20);
     }
     
     
