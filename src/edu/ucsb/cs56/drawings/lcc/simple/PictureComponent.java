@@ -104,5 +104,8 @@ public class PictureComponent extends JComponent
 
         g2.drawString("Chucheng Lin", 20,20);
 	
-    }
-}
+    }}
+
+
+
+
