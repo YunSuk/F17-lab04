@@ -50,36 +50,23 @@ public class Sign extends GeneralPathWrapper implements Shape
         // so we ADD to y to get a "lower" value on the screen
 
         Line2D.Double top =
-            new Line2D.Double (x + width * .25, octUpperY,
-                               x + width * .75, octUpperY);
+            new Line2D.Double (x + width * .25, octUpperY, x + width * .75, octUpperY);
 
         Line2D.Double bottom =
-            new Line2D.Double (x + width * .25, octLowerY,
-                               x + width * .75, octLowerY);
+            new Line2D.Double (x + width * .25, octLowerY, x + width * .75, octLowerY);
 
         Line2D.Double ul =
-            new Line2D.Double (x + width *.25, octUpperY,
-                               x, octUpperY + octHeight * .25);
+            new Line2D.Double (x + width *.25, octUpperY, x, octUpperY + octHeight * .25);
 
-        Line2D.Double ll =
-            new Line2D.Double (x, octLowerY - octHeight * .25,
-                               x + width * .25, octLowerY);
+        Line2D.Double ll = new Line2D.Double (x, octLowerY - octHeight * .25, x + width * .25, octLowerY);
 
-	Line2D.Double lr =
-            new Line2D.Double (x + width, octLowerY - octHeight * .25,
-                               x + width * .75, octLowerY);
+	Line2D.Double lr = new Line2D.Double (x + width, octLowerY - octHeight * .25, x + width * .75, octLowerY);
 
-        Line2D.Double ur =
-            new Line2D.Double (x + width * .75, octUpperY,
-                               x + width, octUpperY + octHeight * .25);
+        Line2D.Double ur = new Line2D.Double (x + width * .75, octUpperY, x + width, octUpperY + octHeight * .25);
 
-        Line2D.Double right =
-            new Line2D.Double (x + width, octUpperY + octHeight * .25,
-                               x + width, octLowerY - octHeight * .25);
+        Line2D.Double right = new Line2D.Double (x + width, octUpperY + octHeight * .25, x + width, octLowerY - octHeight * .25);
 
-        Line2D.Double left =
-            new Line2D.Double (x, octUpperY + octHeight * .25,
-                               x, octLowerY - octHeight * .25);
+        Line2D.Double left = new Line2D.Double (x, octUpperY + octHeight * .25, x, octLowerY - octHeight * .25);
 
 
         // put the whole sign together
