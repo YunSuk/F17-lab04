@@ -1,4 +1,4 @@
-package edu.ucsb.cs56.drawings.pconrad.advanced;
+package edu.ucsb.cs56.drawings.vanessam.advanced;
 import java.awt.geom.GeneralPath;  
 import java.awt.Shape; 
 import java.awt.geom.Rectangle2D;
@@ -53,6 +53,3 @@ public class HouseWithWindows extends House implements Shape
         wholeHouse.append(win3, false); 
     }    
 }
-
-
-
