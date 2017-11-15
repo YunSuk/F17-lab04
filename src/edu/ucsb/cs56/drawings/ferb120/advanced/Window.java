@@ -30,10 +30,10 @@ public class Window extends GeneralPathWrapper implements Shape
         // Specify the upper left corner, and the 
         //  width and height of the original points used to 
         //  plot the *hard-coded* coffee cup
-
-        final double ORIG_UL_X = 100.0;
-        final double ORIG_UL_Y = 100.0;
-        final double ORIG_HEIGHT = 100.0;
+	
+	final double ORIG_UL_X = 100.0;
+	final double ORIG_UL_Y = 100.0;
+	final double ORIG_HEIGHT = 100.0;
 	final double ORIG_WIDTH = 300.0;
 	
 	

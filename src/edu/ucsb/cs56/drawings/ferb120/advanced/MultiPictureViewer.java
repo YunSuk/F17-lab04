@@ -40,8 +40,7 @@ public class MultiPictureViewer
        
        // Instantiate your drawing as a "component"
        
-       MultiPictureComponent component = 
-	   new MultiPictureComponent(whichPicture);
+       MultiPictureComponent component = new MultiPictureComponent(whichPicture);
       
       // Always add your component to the frame 
       // and then make the window visible
