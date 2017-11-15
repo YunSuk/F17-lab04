@@ -16,17 +16,14 @@ import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
       
    @author Vanessa Mejia 
    @version for CS56, F17, UCSB
-   
 */
 
-public class circle extends GeneralPathWrapper implements Shape
+public class Circle extends GeneralPathWrapper implements Shape
 {
-    public circle(double x, double y, double radiusx, double radiusy) {
-
+ 	public Circle(double x, double y, double radiusx, double radiusy) {
 	//make the circle
 	Ellipse2D.Double circ = 
 	new Ellipse2D.Double(x,y,radiusx,radiusy);
-	
 
 	GeneralPath wholecircle = this.get();
 	wholecircle.append(circ, false);
